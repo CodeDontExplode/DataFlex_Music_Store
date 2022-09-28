@@ -39,7 +39,7 @@ Object oPeople is a dbView
     Object oPeopleLastName is a dbForm
         Entry_Item People.LastName
         Set Size to 12 246
-        Set Location to 19 39
+        Set Location to 19 38
         Set peAnchors to anTopLeftRight
         Set Label to "LastName"
         Set Label_Justification_mode to jMode_right
