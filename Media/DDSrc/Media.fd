@@ -1,0 +1,10 @@
+#REPLACE FILE2 Media
+#REPLACE Media.Recnum |FN2,0
+#REPLACE Media.MediaID |FN2,1
+#REPLACE Media.Title |FS2,2
+#REPLACE Media.Author |FS2,3
+#REPLACE Media.Type |FS2,4
+#REPLACE Media.PurchaseDate |FD2,5
+#REPLACE Media.Price |FN2,6
+#REPLACE Media.Comment |FS2,7
+#REPLACE Media.PeopleId |FN2,8

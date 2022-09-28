@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<DataDictionaryList xmlns="http://www.dataaccess.com/VisualDataFlex/2008/DataDictionaryList/">
+	<Tables>
+		<Table>
+			<tableNumber>1</tableNumber>
+			<tableName>People</tableName>
+			<DDClasses>
+				<DDClass>
+					<className>cPeopleDataDictionary</className>
+					<classFile>cPeopleDataDictionary.dd</classFile>
+					<preferred>true</preferred>
+				</DDClass>
+			</DDClasses>
+		</Table>
+		<Table>
+			<tableNumber>2</tableNumber>
+			<tableName>Media</tableName>
+			<DDClasses>
+				<DDClass>
+					<className>cMediaDataDictionary</className>
+					<classFile>cMediaDataDictionary.dd</classFile>
+					<preferred>true</preferred>
+				</DDClass>
+			</DDClasses>
+		</Table>
+	</Tables>
+</DataDictionaryList>

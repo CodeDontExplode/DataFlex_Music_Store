@@ -1,0 +1,10 @@
+#REPLACE FILE1 People
+#REPLACE People.Recnum |FN1,0
+#REPLACE People.PeopleId |FN1,1
+#REPLACE People.LastName |FS1,2
+#REPLACE People.FirstName |FS1,3
+#REPLACE People.Address |FS1,4
+#REPLACE People.Zip |FS1,5
+#REPLACE People.City |FS1,6
+#REPLACE People.Phone |FS1,7
+#REPLACE People.Comment |FS1,8

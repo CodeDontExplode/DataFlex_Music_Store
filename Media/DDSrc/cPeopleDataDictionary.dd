@@ -1,0 +1,29 @@
+﻿Use DataDict.pkg
+
+Open People
+Open Media
+
+Class cPeopleDataDictionary is a DataDictionary
+    
+    Procedure Construct_Object
+        Forward Send Construct_Object
+        Set Main_File to People.File_Number
+
+        Set Add_Client_File to Media.File_Number
+
+        Set Foreign_Field_Option DD_KEYFIELD DD_NOPUT to True
+        Set Foreign_Field_Option DD_KEYFIELD DD_FINDREQ to True
+        Set Foreign_Field_Option DD_INDEXFIELD DD_NOPUT to True
+        Set Foreign_Field_Option DD_DEFAULT DD_DISPLAYONLY to True
+
+        Set Key_Field_State Field People.PeopleId to True
+
+        Set Field_Option Field People.LastName DD_REQUIRED to True
+
+        Set Field_Option Field People.Zip DD_CAPSLOCK to True
+
+        Set Field_Option Field People.City DD_CAPSLOCK to True
+
+    End_Procedure
+
+End_Class
